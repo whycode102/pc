@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --accent: #FFFFFF;
+    --bg: #0A0A0A;
+    --card: #111111;
+    --text: #FFFFFF;
+    --subtext: #8A8F98;
+}
+
+body {
+    background: var(--bg);
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background: var(--card);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 340px;
+    padding: 32px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.specs {
+    color: var(--subtext);
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.specs-item {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.specs-item strong {
+    color: var(--accent);
+}
